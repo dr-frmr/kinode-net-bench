@@ -1,0 +1,20 @@
+[
+    {
+        "process_name": "tester",
+        "process_wasm_path": "/tester.wasm",
+        "on_exit": "Restart",
+        "request_networking": true,
+        "request_capabilities": [],
+        "grant_capabilities": [],
+        "public": true
+    },
+    {
+        "process_name": "receiver",
+        "process_wasm_path": "/receiver.wasm",
+        "on_exit": "Restart",
+        "request_networking": true,
+        "request_capabilities": [],
+        "grant_capabilities": [],
+        "public": true
+    }
+]

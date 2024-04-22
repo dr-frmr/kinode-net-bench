@@ -1,0 +1,16 @@
+{
+    "name": "net-bench",
+    "description": "Benchmarking and testing for Kinode networking",
+    "image": "",
+    "properties": {
+        "package_name": "net-bench",
+        "current_version": "0.1.0",
+        "publisher": "mothu-et-doria.os",
+        "mirrors": [],
+        "code_hashes": {
+            "0.1.0": ""
+        }
+    },
+    "external_url": "",
+    "animation_url": ""
+}
