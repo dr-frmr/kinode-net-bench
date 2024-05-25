@@ -134,6 +134,7 @@ fn speedtest(our: &Address, node_id: &NodeId) -> anyhow::Result<()> {
         10_000,
     )?;
     bandwidth_test(our, node_id, vec![0; 1024], 1_000)?;
+    bandwidth_test(our, node_id, vec![0; 60_000], 1_000)?;
     bandwidth_test(our, node_id, vec![0; 102_400], 100)?;
     bandwidth_test(our, node_id, vec![0; 1_048_576], 10)?;
 
